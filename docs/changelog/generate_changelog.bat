@@ -1,56 +1,49 @@
 @echo off
-:: Script to generate changelog files with commit links and headers
-:: Save output to index.en.md and index.tr.md
-
 :: Set Git repository URL (change this to your actual repository)
 set repo_url=https://github.com/coruhtech/kosgeb-rize/commit/
 
-:: Create English changelog
-set output_file=index.en.md
-if exist %output_file% del %output_file%
+:: Create English changelog file
+set output_file_en=index.en.md
+if exist %output_file_en% del %output_file_en%
 
-:: Write the header to the English changelog file
-echo --- >> %output_file%
-echo template: main.html >> %output_file%
-echo --- >> %output_file%
-echo. >> %output_file%
-echo # Changelog >> %output_file%
-echo. >> %output_file%
-
-:: Append git log to English changelog file with commit links
-echo Generating English changelog with commit links...
-for /f "tokens=1,2,* delims=|" %%A in ('git log --pretty=format:"%%h|%%ad|%%s" --date=short') do (
-    echo ## Commit: [%%A](%repo_url%%%A) >> %output_file%
-    echo **Date:** %%B >> %output_file%
-    echo **Message:** %%C >> %output_file%
-    echo. >> %output_file%
-    echo ------------------------------ >> %output_file%
-    echo. >> %output_file%
+:: Write the header to the English changelog file without leaving extra spaces
+(
+    set /p="---" <nul >> %output_file_en%
+    echo. >> %output_file_en%
+    set /p="template: home.html" <nul >> %output_file_en%
+    echo. >> %output_file_en%
+    set /p="title: ChangeLog" <nul >> %output_file_en%
+    echo. >> %output_file_en%
+    set /p="---" <nul >> %output_file_en%
+    echo. >> %output_file_en%
 )
 
-:: Create Turkish changelog
-set output_file=index.tr.md
-if exist %output_file% del %output_file%
+:: Append git log to English changelog file with correct variable usage
+echo Generating English changelog...
+git log --pretty=format:"## Commit: [%%h](%repo_url%%%h)" --date=short >> %output_file_en%
+git log --pretty=format:"**Date:** %%ad" --date=short >> %output_file_en%
+git log --pretty=format:"**Message:** %%s" --date=short >> %output_file_en%
 
-:: Write the header to the Turkish changelog file
-echo --- >> %output_file%
-echo template: main.html >> %output_file%
-echo --- >> %output_file%
-echo. >> %output_file%
-echo # Değişiklik Günlüğü >> %output_file%
-echo. >> %output_file%
+:: Create Turkish changelog file
+set output_file_tr=index.tr.md
+if exist %output_file_tr% del %output_file_tr%
 
-:: Append git log to Turkish changelog file with commit links
-echo Generating Turkish changelog with commit links...
-for /f "tokens=1,2,* delims=|" %%A in ('git log --pretty=format:"%%h|%%ad|%%s" --date=short') do (
-    echo ## Commit: [%%A](%repo_url%%%A) >> %output_file%
-    echo **Tarih:** %%B >> %output_file%
-    echo **Mesaj:** %%C >> %output_file%
-    echo. >> %output_file%
-    echo ------------------------------ >> %output_file%
-    echo. >> %output_file%
+:: Write the header to the Turkish changelog file without leaving extra spaces
+(
+    set /p="---" <nul >> %output_file_tr%
+    echo. >> %output_file_tr%
+    set /p="template: home.html" <nul >> %output_file_tr%
+    echo. >> %output_file_tr%
+    set /p="title: Değişiklik Günlüğü" <nul >> %output_file_tr%
+    echo. >> %output_file_tr%
+    set /p="---" <nul >> %output_file_tr%
+    echo. >> %output_file_tr%
 )
 
-:: Indicate success
-echo Changelogs generated successfully in index.en.md and index.tr.md
+:: Append git log to Turkish changelog file with correct variable usage
+echo Generating Turkish changelog...
+git log --pretty=format:"## Commit: [%%h](%repo_url%%%h)" --date=short >> %output_file_tr%
+git log --pretty=format:"**Tarih:** %%ad" --date=short >> %output_file_tr%
+git log --pretty=format:"**Mesaj:** %%s" --date=short >> %output_file_tr%
+
 pause

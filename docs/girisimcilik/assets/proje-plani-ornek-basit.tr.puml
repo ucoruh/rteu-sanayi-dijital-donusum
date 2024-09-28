@@ -1,0 +1,40 @@
+@startgantt
+title Kafe İyileştirme Projesi: KOSGEB Desteği ile İşletme Geliştirme \n Sadeleştirilmiş Proje Takvimi
+
+Project starts 2024-10-01
+
+'--- Başlangıç Aşaması ---
+[Proje Planlama] requires 7 days and is 100% completed
+[KOSGEB Başvuru] requires 7 days and is 90% completed
+[KOSGEB Başvuru] starts at [Proje Planlama]'s end
+
+'--- Analiz Aşaması ---
+[Mevcut Durum Analizi] requires 7 days and is 70% completed
+[Mevcut Durum Analizi] starts at [KOSGEB Başvuru]'s end
+[Pazarlama Stratejisi] requires 7 days and is 50% completed
+[Pazarlama Stratejisi] starts at [Mevcut Durum Analizi]'s end
+
+'--- Geliştirme Aşaması ---
+[Ar-Ge Çalışmaları] requires 14 days and is 40% completed
+[Ar-Ge Çalışmaları] starts at [Pazarlama Stratejisi]'s end
+[Ekipman ve Ürün Geliştirme] requires 14 days and is 30% completed
+[Ekipman ve Ürün Geliştirme] starts at [Ar-Ge Çalışmaları]'s end
+
+'--- Eğitim ve Pazarlama ---
+[Personel Eğitimi] requires 7 days and is 50% completed
+[Personel Eğitimi] starts at [Ekipman ve Ürün Geliştirme]'s end
+[Dijital Pazarlama] requires 7 days and is 40% completed
+[Dijital Pazarlama] starts at [Personel Eğitimi]'s end
+
+'--- Kapanış ve Raporlama ---
+[Son Raporlama] requires 7 days and is 0% completed
+[Son Raporlama] starts at [Dijital Pazarlama]'s end
+[Proje Tamamlanması] requires 1 day and is 0% completed
+[Proje Tamamlanması] starts at [Son Raporlama]'s end
+
+'--- Kilometre Taşları ---
+[KOSGEB Başvuru Tamamlandı] happens at [KOSGEB Başvuru]'s end
+[Ar-Ge Tamamlandı] happens at [Ar-Ge Çalışmaları]'s end
+[Proje Tamamlandı] happens at [Proje Tamamlanması]'s end
+
+@endgantt

@@ -180,7 +180,9 @@ plugins:
           site_name: "KOSGEB Girisimcilik Eğitimi"
           nav_translations:
             Home: "Anasayfa"
-            Entrepreneurship: "Girisimcilik"
+            "Entrepreneurship Overview": "Girişimcilik Genel Bakış"
+            "Business Model Development": "İş Modeli Geliştirme"
+            "Rize Local Projects": "Rize Yerel Projeleri"
             License: "Lisans"
             Changelog: "Revizyonlar"
   - tags:
@@ -208,6 +210,8 @@ extra_javascript:
 # Page tree (for navigation)
 nav:
   - Home: index.md
-  - Entrepreneurship: girisimcilik/girisimcilik.md
-  - License: license.md
+  - "Entrepreneurship Overview": girisimcilik/girisimcilik-giris.md
+  - "Business Model Development": girisimcilik/girisimcilik-isplani.md
+  - "Rize Local Projects": girisimcilik/girisimcilik-rize.md
+  - License: license/index.md
   - Changelog: changelog/index.md
