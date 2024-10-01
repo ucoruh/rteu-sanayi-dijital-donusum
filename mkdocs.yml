@@ -1,10 +1,10 @@
 # Project information
-site_name: "KOSGEB Rize Girişimcilik Eğitimi"
+site_name: "KOSGEB Tarafından Sunulan Girişimcilik Yol Haritası"
 docs_dir: docs  # Where to find the markdown files
 site_dir: site  # Where to output the HTML files
 site_author: 'Dr. Uğur CORUH'
 site_url: 'https://coruhtech.github.io/kosgeb-rize/'
-site_description: 'Course Notes for Software Developers'
+site_description: 'KOSGEB Tarafından Sunulan Girişimcilik Yol Haritası'
 
 # Repository
 repo_name: 'GitHub'
@@ -99,17 +99,13 @@ extra:
       analytics: Google Analytics
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ucoruh
+      link: https://github.com/coruhtech
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ugurcoruh/
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/ucoruh/
+      link: https://www.linkedin.com/company/coruh
     - icon: fontawesome/regular/id-card
-      link: https://dblp.org/pid/230/0394.html
+      link: https://www.linkedin.com/in/ugurcoruh
     - icon: fontawesome/brands/orcid
-      link: https://orcid.org/my-orcid?orcid=0000-0003-4193-8401
-    - icon: fontawesome/brands/google
-      link: https://scholar.google.com/citations?user=KIU4ltMAAAAJ&hl=tr
+      link: http://www.coruh.com.tr/
 
 # Extensions
 markdown_extensions:
