@@ -9,14 +9,17 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <img src="images/homepage.png" alt="" width="1659" height="1200" draggable="false">
+          <video autoplay loop muted width="1659" height="1200">
+            <source src="images/homepage.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
 
         {% if i18n_page_locale == "en" %}
         <div class="mdx-hero__content">
-          <h1>KOSGEB Entrepreneurship Training</h1>
+          <h1>KOSGEB Rize Entrepreneurship Training</h1>
           <p>Roadmap for Entrepreneurs</p>
-          <a href="{{ 'girisimcilik/girisimcilik-giris/' | url }}" title="Entrepreneurship Training" class="md-button md-button--primary">
+          <a href="{{ 'kosgeb/girisimcilik-giris/' | url }}" title="Entrepreneurship Training" class="md-button md-button--primary">
             Entrepreneurship Training >>
           </a>
           <a href="https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi" title="Entrepreneur Support Program" class="md-button">
@@ -30,9 +33,9 @@
 
         {% if i18n_page_locale == "tr" %}
         <div class="mdx-hero__content">
-          <h1>KOSGEB Girisimcilik Eğitimi</h1>
+          <h1>KOSGEB Rize Girisimcilik Eğitimi</h1>
           <p>Girişimciler İçin Yol Haritası</p>
-          <a href="{{ 'girisimcilik/girisimcilik-giris/' | url }}" title="Girişimcilik Eğitimi" class="md-button md-button--primary">
+          <a href="{{ 'kosgeb/girisimcilik-giris/' | url }}" title="Girişimcilik Eğitimi" class="md-button md-button--primary">
             Girişimcilik Eğitimi >>
           </a>
           <a href="https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi" title="Girişimci Destek Programı" class="md-button">

@@ -1,5 +1,5 @@
 # Project information
-site_name: "KOSGEB Entrepreneurship Training"
+site_name: "KOSGEB Rize Girişimcilik Eğitimi"
 docs_dir: docs  # Where to find the markdown files
 site_dir: site  # Where to output the HTML files
 site_author: 'Dr. Uğur CORUH'
@@ -35,7 +35,7 @@ theme:
    - 404.html
     
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: tr
   features:
     - content.code.annotate
     - content.tabs.link
@@ -169,22 +169,26 @@ plugins:
       reconfigure_search: true
       fallback_to_default: true
       languages:
-        - locale: en
-          name: "English"
-          build: true
-          default: true
-          site_name: "KOSGEB Entrepreneurship Training"
         - locale: tr
           name: "Türkçe"
           build: true
-          site_name: "KOSGEB Girisimcilik Eğitimi"
+          default: true
+          site_name: "KOSGEB Rize Girisimcilik Eğitimi"
           nav_translations:
-            Home: "Anasayfa"
-            "Entrepreneurship Overview": "Girişimcilik Genel Bakış"
-            "Business Model Development": "İş Modeli Geliştirme"
-            "Rize Local Projects": "Rize Yerel Projeleri"
-            License: "Lisans"
-            Changelog: "Revizyonlar"
+            "Home": "Anasayfa" 
+            "Entrepreneurship Overview": "Girişimcilik Genel Bakış" 
+            "License": "Lisans" 
+            "Changelog": "Revizyonlar" 
+        - locale: en
+          name: "English"
+          build: true
+          default: false
+          site_name: "KOSGEB Rize Entrepreneurship Training"
+          nav_translations:
+            "Anasayfa": "Home" 
+            "Girişimcilik Genel Bakış": "Entrepreneurship Overview" 
+            "Lisans": "License" 
+            "Revizyonlar": "Changelog" 
   - tags:
       tags_file: tags.md
   - minify:
@@ -203,6 +207,10 @@ plugins:
       token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
   - macros
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -210,8 +218,6 @@ extra_javascript:
 # Page tree (for navigation)
 nav:
   - Home: index.md
-  - "Entrepreneurship Overview": girisimcilik/girisimcilik-giris.md
-  - "Business Model Development": girisimcilik/girisimcilik-isplani.md
-  - "Rize Local Projects": girisimcilik/girisimcilik-rize.md
+  - "Entrepreneurship Overview": kosgeb/girisimcilik-giris.md
   - License: license/index.md
   - Changelog: changelog/index.md

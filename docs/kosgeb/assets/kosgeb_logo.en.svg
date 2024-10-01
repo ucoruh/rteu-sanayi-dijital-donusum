@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="131.252mm"
+   height="107.078mm"
+   viewBox="0 0 131.252 107.078"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="kosgeb-rize-logo.svg">
+  <defs
+     id="defs2">
+    <style
+       id="style3713">.cls-1{fill:#bbbdbf;}.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-2,.cls-4{fill:#231f20;}.cls-3{fill:url(#GradientFill_1);}</style>
+    <linearGradient
+       id="GradientFill_1"
+       x1="117.65"
+       y1="108.51"
+       x2="497.72"
+       y2="108.51"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#00bcf1"
+         id="stop3715" />
+      <stop
+         offset="1"
+         stop-color="#e1f3fc"
+         id="stop3717" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="766.41895"
+     inkscape:cy="562.76365"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="3829"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-189.92201)"
+     style="display:inline;opacity:1">
+    <g
+       id="layer1-4"
+       inkscape:label="Layer 1"
+       transform="translate(-0.28300462,190.09346)">
+      <g
+         transform="matrix(0.26458333,0,0,0.26458333,-0.01162673,0.81711172)"
+         id="Layer_2"
+         data-name="Layer 2">
+        <polygon
+           id="polygon3722"
+           points="1.66,176.69 1.65,176.69 1.65,116 102.68,217.03 71.84,217.03 57.46,217.03 1.66,217.03 "
+           class="cls-1"
+           style="fill:#bbbdbf;fill-rule:evenodd" />
+        <polygon
+           id="polygon3724"
+           points="102.68,0 1.65,0 1.65,55.8 1.65,65.08 1.65,101.03 "
+           class="cls-1"
+           style="fill:#bbbdbf;fill-rule:evenodd" />
+        <polygon
+           id="polygon3726"
+           points="6.04,105.41 107.07,105.41 107.07,49.61 107.07,40.34 107.07,4.38 "
+           class="cls-2"
+           style="fill:#231f20;fill-rule:evenodd" />
+        <polygon
+           id="polygon3728"
+           points="6.04,111.61 107.07,111.61 107.07,167.42 107.07,176.69 107.07,212.64 "
+           class="cls-2"
+           style="fill:#231f20;fill-rule:evenodd" />
+        <polygon
+           id="polygon3730"
+           points="169.08,217.03 113.27,217.03 113.27,176.69 113.27,116 214.29,217.03 183.46,217.03 "
+           class="cls-2"
+           style="fill:#231f20;fill-rule:evenodd" />
+        <polygon
+           id="polygon3732"
+           points="214.3,0 113.27,0 113.27,55.8 113.27,65.08 113.27,101.03 "
+           class="cls-2"
+           style="fill:#231f20;fill-rule:evenodd" />
+        <path
+           id="path3734"
+           d="m 162.87,111.61 v 45.23 l -45.22,-45.23 z m 55.81,0 v 49.61 h -49.61 v -49.61 z m 0,-55.8 v 49.6 h -49.61 v -49.6 z m 55.81,111.61 V 217 h -49.61 v -49.58 z m 0,-55.81 v 49.61 h -49.61 v -49.61 z m 0,-55.8 v 49.6 H 224.88 V 55.81 Z M 274.49,0 V 49.61 H 224.88 V 0 Z M 330.3,167.42 V 217 h -49.61 v -49.58 z m 0,-55.81 v 49.61 h -49.61 v -49.61 z m 0,-55.8 v 49.6 H 280.69 V 55.81 Z M 330.3,0 V 49.61 H 280.69 V 0 Z m 55.8,167.42 V 217 h -49.6 v -49.58 z m 0,-55.81 v 49.61 h -49.6 v -49.61 z m 0,-55.8 v 49.6 H 336.5 V 55.81 Z M 386.1,0 V 49.61 H 336.5 V 0 Z m 55.81,167.42 V 217 h -49.6 v -49.58 z m 0,-55.81 v 49.61 h -49.6 v -49.61 z m 0,-55.8 v 49.6 h -49.6 v -49.6 z m 0,-55.81 v 49.61 h -49.6 V 0 Z m 55.81,167.42 V 217 h -49.61 v -49.58 z m 0,-55.81 v 49.61 h -49.61 v -49.61 z m 0,-55.8 v 49.6 H 448.11 V 55.81 Z M 497.72,0 V 49.61 H 448.11 V 0 Z m -279,167.42 v 45.22 L 173.5,167.42 Z m 0,-163 V 49.61 H 173.46 L 218.68,4.38 Z m -55.85,55.77 v 45.22 h -45.22 z"
+           class="cls-3"
+           inkscape:connector-curvature="0"
+           style="fill:url(#GradientFill_1);fill-rule:evenodd" />
+        <path
+           id="path3736"
+           d="m 1.67,322.54 h 16.16 v -37.43 h 0.24 l 29,37.43 h 21.12 l -34.53,-42.62 33.15,-38 H 46.94 L 17.83,276.57 V 241.92 H 1.67 Z m 85,-40.55 c 0,24.72 13.62,41.95 39.5,41.95 25.41,0 39.5,-17.57 39.5,-41.95 0,-24.38 -14.09,-41.46 -39.5,-41.46 -25.64,0 -39.5,16.87 -39.5,41.46 z m 16.86,0 c 0,-14.2 6.58,-28.75 22.64,-28.75 16.06,0 22.63,14.55 22.63,28.76 0,14.44 -6.13,29.23 -22.64,29.23 -16.51,0 -22.64,-14.8 -22.64,-29.23 z m 133.62,-38.57 a 60,60 0 0 0 -19.29,-2.89 c -14.21,0 -28.19,6.59 -28.19,24.6 0,26.68 35.35,20.33 35.35,35.69 0,7.39 -8.2,10.4 -14.32,10.4 a 37.25,37.25 0 0 1 -18.25,-5 l -1.5,14.56 c 8.08,1.86 11.89,3.13 20.67,3.13 16.29,0 30.26,-6.72 30.26,-24.39 0,-26.91 -35.34,-21.25 -35.34,-35.11 0,-8.78 7.16,-11.2 12.7,-11.2 a 41.81,41.81 0 0 1 16.4,3.46 l 1.51,-13.28 z m 95.27,0.46 a 76.18,76.18 0 0 0 -23.68,-3.35 c -27.37,0 -44.24,15.36 -44.24,43.08 0,27.26 18,40.33 44.24,40.33 8.78,0 17.44,-1.86 26.11,-4.17 V 276.34 H 302.26 V 289 h 17.1 v 21 a 38.55,38.55 0 0 1 -10.63,1.15 c -17.21,0 -27.37,-12.47 -27.37,-28.76 0,-16.52 10.39,-29.22 29.22,-29.22 a 53.11,53.11 0 0 1 20.79,4.27 l 1,-13.63 z m 31.28,78.66 h 47.82 V 309.83 H 379.86 V 287.2 h 28.76 v -12.71 h -28.76 v -19.87 h 31.42 v -12.7 h -47.59 v 80.62 z m 92.27,-36 h 7.62 c 8.09,0 16.64,1.62 16.64,12.13 0,9.24 -9.24,11.2 -16.64,11.2 H 456 V 286.5 Z m 0,-31.88 h 6.24 c 7.39,0 15.59,0.7 15.59,10.05 0,8.32 -8.43,9.82 -15.25,9.82 H 456 V 254.62 Z M 439.8,322.58 H 468 c 10.17,0 28.42,-3 28.42,-23.34 0,-9.7 -7.4,-17.43 -18.48,-18.36 v -0.23 c 9.7,-1.73 16,-8.32 16,-18 0,-17.67 -15.59,-20.67 -26,-20.67 h -28.15 z"
+           class="cls-4"
+           inkscape:connector-curvature="0"
+           style="fill:#231f20" />
+        <text
+           id="text4042"
+           y="380.14569"
+           x="2.9010859"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             style="font-size:64px"
+             y="380.14569"
+             x="2.9010859"
+             id="tspan4040"
+             sodipodi:role="line">Rize Müdürlüğü</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
