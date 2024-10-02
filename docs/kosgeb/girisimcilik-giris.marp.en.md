@@ -115,7 +115,7 @@ A project is a planned effort to achieve a specific goal. Projects are undertake
 
 ---
 
-![bg left:40%](assets/proje-amacı-kosgeb.png)
+![bg left:40%](assets/proje-amaci-kosgeb.png)
 
 ### **Project Elements**
 
@@ -167,7 +167,7 @@ A project is a planned effort to achieve a specific goal. Projects are undertake
 ---
 
 ![bg left:40%](assets/projeye-donusturme.png)
-![bg left:40%](assets/fikriden-projeye.png)
+![bg left:40%](assets/fikirden-projeye.png)
 
 ### **How Can I Develop My Business?**
 

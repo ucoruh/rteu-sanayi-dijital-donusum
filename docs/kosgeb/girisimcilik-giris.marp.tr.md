@@ -115,7 +115,7 @@ Proje, belirli bir hedefe ulaşmak için yapılan planlı çalışmalardır. İ�
 
 ---
 
-![bg left:40%](assets/proje-amacı-kosgeb.png)
+![bg left:40%](assets/proje-amaci-kosgeb.png)
 
 ### **Proje Unsurları**
 
@@ -168,7 +168,7 @@ Proje, belirli bir hedefe ulaşmak için yapılan planlı çalışmalardır. İ�
 ---
 
 ![bg left:40%](assets/projeye-donusturme.png)
-![bg left:40%](assets/fikriden-projeye.png)
+![bg left:40%](assets/fikirden-projeye.png)
 
 
 ### **İşletmemi nasıl geliştirebilirim?**

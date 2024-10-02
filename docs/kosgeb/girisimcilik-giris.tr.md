@@ -87,7 +87,7 @@ Proje, belirli bir hedefe ulaşmak için yapılan planlı çalışmalardır. İ�
 
 ### **Proje Unsurları**
 
-![](assets/proje-amacı-kosgeb.png){width=300px align=center}
+![](assets/proje-amaci-kosgeb.png){width=300px align=center}
 
 - **Proje Amacı**  
   Projenin genel amacı, hedeflenen sorunları çözmek ya da fırsatları değerlendirmektir.
@@ -125,7 +125,7 @@ Proje, belirli bir hedefe ulaşmak için yapılan planlı çalışmalardır. İ�
 
 ### **İşletmemi nasıl geliştirebilirim?**
 
-![](assets/fikriden-projeye.png){width=300px align=center}
+![](assets/fikirden-projeye.png){width=300px align=center}
 
 - Mevcut İşinizi Analiz Edin İhtiyacınızı belirleyin
 - Çözüm yollarını düşünün,

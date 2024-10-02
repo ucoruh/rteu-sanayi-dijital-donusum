@@ -90,7 +90,7 @@ A project is a planned effort aimed at achieving a specific goal, such as growin
 
 ### **Project Elements**
 
-![](assets/proje-amacı-kosgeb.png){width=300px align=center}
+![](assets/proje-amaci-kosgeb.png){width=300px align=center}
 
 - **Project Purpose**  
   The general goal of the project is to solve targeted problems or take advantage of opportunities.
@@ -126,7 +126,7 @@ A project is a planned effort aimed at achieving a specific goal, such as growin
 
 ### **How Can I Improve My Business?**
 
-![](assets/fikriden-projeye.png){width=300px align=center}
+![](assets/fikirden-projeye.png){width=300px align=center}
 
 - Analyze your current business, identify needs,
 - Consider solutions,
