@@ -13,7 +13,7 @@ Workshop için hazırlanan kapsamlı PowerPoint sunumu buradan indirilebilir.
 
 ### :inbox_tray: İndirme
 
-[**RTEU_Workshop_0351.pptx İndir**](../RTEU_Workshop_0351.pptx){ .md-button .md-button--primary }
+[**rteu-sanayi40-dijital-donusum-workshop-2025.pptx İndir**](../../rteu-sanayi40-dijital-donusum-workshop-2025.pptx){ .md-button .md-button--primary }
 
 ### :bookmark_tabs: Sunum Yapısı
 

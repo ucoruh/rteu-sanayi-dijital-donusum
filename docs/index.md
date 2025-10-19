@@ -60,7 +60,8 @@ Bu site, 2 saatlik workshop süresince işlenen tüm konuları kapsamaktadır:
 ## :package: Materyaller
 
 ### Workshop Sunumu
-- **[PowerPoint Sunumu](RTEU_Workshop_0351.pptx)** (62 slayt, progress bar'lı)
+- **[PowerPoint Sunumu](rteu-sanayi40-dijital-donusum-workshop-2025.pptx)** (62 slayt, progress bar'lı)
+- **[İnteraktif Sunum](presentation/)** (HTML, Marp, Markdown)
 - **[Python Kod](rteu_ultimate_presentation.py)** (Sunum otomatik oluşturma scripti)
 
 ### Kaynaklar
