@@ -3,7 +3,50 @@ marp: true
 theme: default
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+style: |
+  section {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    color: #1976d2;
+    font-size: 2.2em;
+    margin-bottom: 0.6em;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  ul {
+    font-size: 1.25em;
+    line-height: 1.8;
+  }
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  strong {
+    color: #d32f2f;
+    font-weight: 700;
+  }
+  section::after {
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+  }
+  footer {
+    color: #555;
+    font-size: 0.9em;
+    text-shadow: 0 0 3px white;
+  }
+  header {
+    color: #1976d2;
+    font-weight: 600;
+    text-shadow: 0 0 3px white;
+  }
+  code {
+    background: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
 header: 'RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop'
 footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 ---
