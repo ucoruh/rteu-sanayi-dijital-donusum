@@ -1,8 +1,8 @@
-# RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop
+---
+template: home.html
+---
 
-<div class="hero-image" markdown>
-  ![Design Thinking - Lean - Agile](design-thinking-lean-agile-slide1.png){ loading=lazy }
-</div>
+# RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop
 
 <style>
 .hero-image {
