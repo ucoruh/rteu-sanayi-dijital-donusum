@@ -15,6 +15,38 @@
 
 ---
 
+## Dosyaları İndir
+
+<div class="grid cards" markdown>
+
+-   [:fontawesome-solid-file-powerpoint: **PowerPoint Sunumu**](../rteu-sanayi40-dijital-donusum-workshop-2025.pptx)
+
+    ---
+
+    62 slaytlık tam sunum (11 MB)
+
+-   [:fontawesome-solid-file-code: **Python Kodu**](../rteu_ultimate_presentation.py)
+
+    ---
+
+    Sunum oluşturma scripti
+
+-   [:fontawesome-solid-presentation-screen: **HTML Sunum**](slides-full.html){ target="_blank" }
+
+    ---
+
+    İnteraktif web sunumu
+
+-   [:fontawesome-solid-file-lines: **Markdown Kaynak**](slides-full.marp.md)
+
+    ---
+
+    Marp kaynak kodu
+
+</div>
+
+---
+
 ## Sunum Formatları
 
 Workshop sunumunu farklı formatlarda görüntüleyin:
