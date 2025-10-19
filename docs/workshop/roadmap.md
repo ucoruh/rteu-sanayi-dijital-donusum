@@ -1,5 +1,15 @@
 # Workshop Yol Haritası
 
+<div style="position: relative; width: 100%; height: 300px; margin-bottom: 2em; border-radius: 8px; overflow: hidden;">
+  <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&auto=format&fit=crop" alt="Roadmap Planning" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(25,118,210,0.8), rgba(21,101,192,0.7)); display: flex; align-items: center; justify-content: center;">
+    <div style="text-align: center; color: white; padding: 2em;">
+      <h2 style="color: white; margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">14 Haftalık Yol Haritası</h2>
+      <p style="font-size: 1.3em; margin-top: 0.5em; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Fikirden Başvuruya Adım Adım</p>
+    </div>
+  </div>
+</div>
+
 ## 14 Haftalık Proje Geliştirme Planı
 
 Bu yol haritası, workshop sonrasında TÜBİTAK 2209-A başvurunuzu hazırlamanız için 14 haftalık detaylı bir plandır.
