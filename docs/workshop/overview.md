@@ -30,7 +30,8 @@ Klavye ile navigasyon: ← → | Tam ekran: F tuşu
 
 - [PDF SUNUM](slides-full.pdf)
 - [PPTX SUNUM](../rteu-sanayi40-dijital-donusum-workshop-2025.pptx)
-- [HTML SUNUM](slides-full.html)
+- [HTML SUNUM (Marp)](slides-full.html)
+- [HTML SUNUM (PPTX)](slides-pptx.html) - PowerPoint'ten dönüştürülmüş
 - [MARKDOWN KAYNAK](slides-full.marp.md)
 
 ---
@@ -53,7 +54,7 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
     - Progress bar'lı
     - Tam ekran görseller
 
--   **İnteraktif HTML Sunum**
+-   **İnteraktif HTML Sunum (Marp)**
 
     ---
 
@@ -64,6 +65,19 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
     - Yeni sekmede açılır
     - Klavye ile navigasyon (← →)
     - Tam ekran mod (F tuşu)
+
+-   **İnteraktif HTML Sunum (PPTX)**
+
+    ---
+
+    PowerPoint'ten dönüştürülmüş web sunumu (62 slayt)
+
+    [:fontawesome-solid-display: Web Sunumunu Aç](slides-pptx.html){ .md-button target="_blank" }
+
+    - Görseller gömülü (base64)
+    - Klavye/touch navigasyon
+    - Progress bar ve tam ekran
+    - 18MB (tüm görseller dahil)
 
 -   **Detaylı İçerik**
 
