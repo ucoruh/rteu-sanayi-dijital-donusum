@@ -1,6 +1,14 @@
 # Workshop Genel Bakış
 
-## RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop
+<div style="position: relative; width: 100%; height: 300px; margin-bottom: 2em; border-radius: 8px; overflow: hidden;">
+  <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&auto=format&fit=crop" alt="Workshop Team Collaboration" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(63,94,251,0.8), rgba(252,70,107,0.6)); display: flex; align-items: center; justify-content: center;">
+    <div style="text-align: center; color: white; padding: 2em;">
+      <h2 style="color: white; margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">RTEÜ Sanayi 4.0 & Dijital Dönüşüm</h2>
+      <p style="font-size: 1.3em; margin-top: 0.5em; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">AI Araçlarıyla Fikirden Ürüne</p>
+    </div>
+  </div>
+</div>
 
 **Tarih**: 19 Ekim 2025, Pazar
 **Saat**: 10:00 - 12:00 (2 saat)
