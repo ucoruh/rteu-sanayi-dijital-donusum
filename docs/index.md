@@ -1,6 +1,8 @@
 ---
 template: home.html
 title: Ana Sayfa
+hide:
+  - toc
 ---
 
 # Blank
