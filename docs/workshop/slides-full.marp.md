@@ -123,10 +123,12 @@ footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 
 - ⏰ 10:10-10:30
 - SANAYİDE DİJİTAL DÖNÜŞÜM NEDEN?
-- Şirketler dönüşümplanıyor
-- Başarıylauyguluyor
+- 92%
+- Şirketler dönüşüm planlıyor
+- 37%
+- Başarıyla uyguluyor
 - 3.5X
-- Verimlilikpotansiyeli
+- Verimlilik potansiyeli
 
 ---
 
@@ -1215,9 +1217,10 @@ footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 # 59/62
 
 - 🎯 BUGÜNÜN BAŞARILARI
-- ProjeFikri
-- GençGirişimci
-- AraçÖğrenildi
+- 25+
+- Proje Fikri
+- Genç Girişimci
+- Araç Öğrenildi
 - 100%
 - Motivasyon
 
