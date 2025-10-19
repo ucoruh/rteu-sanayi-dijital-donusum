@@ -9,43 +9,25 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <video autoplay loop muted width="1659" height="1200">
-            <source src="images/homepage.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <img src="design-thinking-lean-agile-slide1.png" alt="Design Thinking - Lean - Agile" width="1659" height="1200">
         </div>
 
-        {% if i18n_page_locale == "en" %}
         <div class="mdx-hero__content">
-          <h1>Entrepreneurship Roadmap Provided by KOSGEB Rize</h1>
-          <p>Roadmap for Entrepreneurs</p>
-          <a href="{{ 'kosgeb/girisimcilik-giris/' | url }}" title="Entrepreneurship Training" class="md-button md-button--primary">
-            Entrepreneurship Training >>
+          <h1>RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop</h1>
+          <p>AI Araçlarıyla Fikirden Ürüne - 19 Ekim 2025</p>
+          <a href="{{ 'workshop/overview/' | url }}" title="Workshop Materyalleri" class="md-button md-button--primary">
+            Workshop Materyalleri >>
           </a>
-          <a href="https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi" title="Entrepreneur Support Program" class="md-button">
-            Entrepreneur Support Program
+          <a href="{{ 'funding/overview/' | url }}" title="Fonlama Ekosistemi" class="md-button">
+            Fonlama Ekosistemi
           </a>
-          <a href="https://www.kosgeb.gov.tr/Web/Genel/SSS.aspx?KatID=2" title="Frequently Asked Questions" class="md-button">
-            Frequently Asked Questions
+          <a href="{{ 'ai-tools/why-ai/' | url }}" title="AI Araçları" class="md-button">
+            AI Araçları
+          </a>
+          <a href="RTEU_Workshop_0351.pptx" title="PowerPoint Sunumu İndir" class="md-button">
+            Sunum İndir (PPTX)
           </a>
         </div>
-        {% endif %}
-
-        {% if i18n_page_locale == "tr" %}
-        <div class="mdx-hero__content">
-          <h1>KOSGEB Rize Tarafından Sunulan Girişimcilik Yol Haritası</h1>
-          <p>Girişimciler İçin Yol Haritası</p>
-          <a href="{{ 'kosgeb/girisimcilik-giris/' | url }}" title="Girişimcilik Eğitimi" class="md-button md-button--primary">
-            Girişimcilik Eğitimi >>
-          </a>
-          <a href="https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi" title="Girişimci Destek Programı" class="md-button">
-            Girişimci Destek Programı
-          </a>
-          <a href="https://www.kosgeb.gov.tr/Web/Genel/SSS.aspx?KatID=2" title="Sıkça Sorulan Sorular" class="md-button">
-            Sıkça Sorulan Sorular
-          </a>
-        </div>
-        {% endif %}
       </div>
     </div>
   </section>
