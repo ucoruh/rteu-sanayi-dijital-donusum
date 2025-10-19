@@ -155,8 +155,7 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       lang: tr
-  - tags:
-      tags_file: tags.md
+  - tags
   - minify:
       minify_html: true
       htmlmin_opts:

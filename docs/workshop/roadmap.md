@@ -383,10 +383,10 @@ Her hafta düzenli olarak:
 ## Kaynaklar
 
 - [TÜBİTAK 2209-A Başvuru Formu](https://tubitak.gov.tr/tr/burslar/lisans/burs-programlari/2209-a)
-- [Proje Önerisi Formatı](proposal-format.md)
-- [Takım Oluşturma Rehberi](team-building.md)
-- [Problem Seçimi](problem-selection.md)
-- [Araştırma Yöntemleri](research-methods.md)
+- [Proje Önerisi Formatı](../project/proposal-format.md)
+- [Takım Oluşturma Rehberi](../project/team-building.md)
+- [Problem Seçimi](../project/problem-selection.md)
+- [Araştırma Yöntemleri](../project/research-methods.md)
 
 ---
 
