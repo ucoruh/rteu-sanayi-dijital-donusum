@@ -11,7 +11,10 @@
 
 ## İnteraktif Sunum
 
-<iframe src="slides-full.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
+[:fontawesome-solid-presentation-screen: **Sunumu Tam Ekranda Aç**](slides-full.html){ .md-button .md-button--primary target="_blank" style="font-size: 1.2em; padding: 1em 2em;" }
+
+Marp ile oluşturulmuş interaktif HTML sunum (62 slayt)
+Klavye ile navigasyon: ← → | Tam ekran: F tuşu
 
 ## Dosyaları İndir
 
