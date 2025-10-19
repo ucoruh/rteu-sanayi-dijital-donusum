@@ -13,37 +13,12 @@
 
 <iframe src="slides-full.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
 
----
-
 ## Dosyaları İndir
 
-<div class="grid cards" markdown>
-
--   [:fontawesome-solid-file-powerpoint: **PowerPoint Sunumu**](../rteu-sanayi40-dijital-donusum-workshop-2025.pptx)
-
-    ---
-
-    62 slaytlık tam sunum (11 MB)
-
--   [:fontawesome-solid-file-code: **Python Kodu**](../rteu_ultimate_presentation.py)
-
-    ---
-
-    Sunum oluşturma scripti
-
--   [:fontawesome-solid-presentation-screen: **HTML Sunum**](slides-full.html){ target="_blank" }
-
-    ---
-
-    İnteraktif web sunumu
-
--   [:fontawesome-solid-file-lines: **Markdown Kaynak**](slides-full.marp.md)
-
-    ---
-
-    Marp kaynak kodu
-
-</div>
+- [PDF SUNUM](slides-full.pdf)
+- [PPTX SUNUM](../rteu-sanayi40-dijital-donusum-workshop-2025.pptx)
+- [HTML SUNUM](slides-full.html)
+- [MARKDOWN KAYNAK](slides-full.marp.md)
 
 ---
 
