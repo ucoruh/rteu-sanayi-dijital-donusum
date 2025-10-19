@@ -9,6 +9,38 @@
 
 ---
 
+## İnteraktif Sunum
+
+!!! example "Marp Sunumu - Tam Ekran Görüntüleme"
+
+    <div style="border: 3px solid #0f3460; border-radius: 12px; overflow: hidden; margin: 1.5rem 0; box-shadow: 0 10px 40px rgba(0,0,0,0.3); background: #1a1a2e;">
+      <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 15px; color: white; font-weight: bold; text-align: center;">
+        📊 Workshop Sunumu - 62 Slayt
+      </div>
+      <iframe src="../presentation/slides.html" width="100%" height="600px" frameborder="0" allowfullscreen style="display: block; background: white;"></iframe>
+    </div>
+
+    <div style="text-align: center; margin: 1.5rem 0;">
+      <a href="../presentation/slides.html" target="_blank" class="md-button md-button--primary" style="margin: 0 5px;">
+        🖥️ Tam Ekranda Aç
+      </a>
+      <a href="../../rteu-sanayi40-dijital-donusum-workshop-2025.pptx" class="md-button" style="margin: 0 5px;">
+        📥 PowerPoint İndir
+      </a>
+      <a href="../../rteu_ultimate_presentation.py" download class="md-button" style="margin: 0 5px;">
+        💻 Python Kodu İndir
+      </a>
+    </div>
+
+    **Klavye Kısayolları:**
+
+    - `→` / `Space`: Sonraki slayt
+    - `←`: Önceki slayt
+    - `F`: Tam ekran
+    - `Esc`: Tam ekrandan çık
+
+---
+
 ## Workshop Hedefleri
 
 Bu workshop, öğrencilerin **AI araçlarıyla fikirden ürüne** giden süreci öğrenmelerini ve gerçek projeler geliştirmelerini sağlamaktadır.
