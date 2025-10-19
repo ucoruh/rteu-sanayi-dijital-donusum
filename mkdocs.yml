@@ -175,6 +175,7 @@ nav:
   - Anasayfa: index.md
   - Workshop Materyalleri:
     - Genel Bakış & Sunum: workshop/overview.md
+    - Tam Sunum İçeriği: workshop/presentation-full.md
     - Sunum Kodu (Python): workshop/code.md
   - Sanayi 4.0 & Dijital Dönüşüm:
     - Giriş: industry40/intro.md

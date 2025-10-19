@@ -11,7 +11,7 @@
 
 ## İnteraktif Sunum
 
-<iframe src="slides.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="slides-full.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
 
 ---
 
@@ -27,7 +27,7 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     Orijinal PowerPoint dosyasını indirin
 
-    [:fontawesome-solid-download: İndir (PPTX)](../../rteu-sanayi40-dijital-donusum-workshop-2025.pptx){ .md-button .md-button--primary }
+    [:fontawesome-solid-download: İndir (PPTX)](../rteu-sanayi40-dijital-donusum-workshop-2025.pptx){ .md-button .md-button--primary }
 
     - 62 slayt
     - Progress bar'lı
@@ -37,13 +37,25 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     ---
 
-    Marp ile oluşturulmuş web sunumu
+    Marp ile oluşturulmuş web sunumu (62 slayt)
 
-    [:fontawesome-solid-presentation-screen: Görüntüle](slides.html){ .md-button }
+    [:fontawesome-solid-presentation-screen: HTML Sunum](slides-full.html){ .md-button }
 
     - Tarayıcıda açılır
     - Klavye ile navigasyon
     - Responsive tasarım
+
+-   **Detaylı İçerik**
+
+    ---
+
+    Tüm slaytların detaylı içeriği
+
+    [:fontawesome-solid-book-open: Tam İçerik](presentation-full.md){ .md-button }
+
+    - Tüm slaytlar tek sayfada
+    - Görsellerle birlikte
+    - Aranabilir format
 
 -   **Markdown Kaynak**
 
@@ -51,7 +63,7 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     Sunum kaynak kodları
 
-    [:fontawesome-solid-code: Marp](slides.marp.md){ .md-button }
+    [:fontawesome-solid-code: Marp Kaynak](slides-full.marp.md){ .md-button }
 
     - Düzenlenebilir
     - Versiyon kontrolü kolay
