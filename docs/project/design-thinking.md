@@ -1,5 +1,15 @@
 # Design Thinking - Lean - Agile Metodolojileri
 
+<div style="position: relative; width: 100%; height: 300px; margin-bottom: 2em; border-radius: 8px; overflow: hidden;">
+  <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&auto=format&fit=crop" alt="Design Thinking Collaboration" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,112,67,0.8), rgba(255,87,34,0.7)); display: flex; align-items: center; justify-content: center;">
+    <div style="text-align: center; color: white; padding: 2em;">
+      <h2 style="color: white; margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Proje Geliştirme</h2>
+      <p style="font-size: 1.3em; margin-top: 0.5em; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Fikirden Ürüne Giden Yol</p>
+    </div>
+  </div>
+</div>
+
 ## Giriş
 
 Modern proje geliştirme süreçlerinde üç temel metodoloji birlikte kullanılır:

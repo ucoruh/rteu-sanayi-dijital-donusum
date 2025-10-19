@@ -1,5 +1,15 @@
 # Fonlama Ekosistemi Genel Bakis
 
+<div style="position: relative; width: 100%; height: 300px; margin-bottom: 2em; border-radius: 8px; overflow: hidden;">
+  <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&auto=format&fit=crop" alt="Funding and Investment" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(0,150,136,0.8), rgba(0,121,107,0.7)); display: flex; align-items: center; justify-content: center;">
+    <div style="text-align: center; color: white; padding: 2em;">
+      <h2 style="color: white; margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Fonlama Fırsatları</h2>
+      <p style="font-size: 1.3em; margin-top: 0.5em; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Projenizi Hayata Geçirin</p>
+    </div>
+  </div>
+</div>
+
 ## Giris
 
 Turkiye'de ogrenci projelerini destekleyen genis bir fonlama ekosistemi bulunmaktadir. Bu ekosistem, ogrencilerin fikirlerini hayata gecirmelerine, arastirma projelerini finanse etmelerine ve girisimcilik yolculuklarina baslamalarini saglamaktadir.
