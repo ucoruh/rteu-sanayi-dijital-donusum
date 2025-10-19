@@ -1,8 +1,23 @@
 # RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop
 
-![Workshop Banner](design-thinking-lean-agile-slide1.png)
+<div class="hero-image" markdown>
+  ![Design Thinking - Lean - Agile](design-thinking-lean-agile-slide1.png){ loading=lazy }
+</div>
 
-## :rocket: Hoş Geldiniz!
+<style>
+.hero-image {
+  margin: 2rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+</style>
+
+## Hoş Geldiniz!
 
 RTEÜ Erasmus+ Sanayi 4.0 ve Dijital Dönüşüm Workshop'una hoş geldiniz! Bu workshop, öğrencilerin **AI araçlarıyla fikirden ürüne** giden süreci öğrenmelerini ve gerçek projeler geliştirmelerini sağlamaktadır.
 
