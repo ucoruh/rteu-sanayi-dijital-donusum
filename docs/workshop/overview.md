@@ -39,11 +39,11 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     Marp ile oluşturulmuş web sunumu (62 slayt)
 
-    [:fontawesome-solid-presentation-screen: HTML Sunum](slides-full.html){ .md-button }
+    [:fontawesome-solid-presentation-screen: Tam Ekranda Aç](slides-full.html){ .md-button target="_blank" }
 
-    - Tarayıcıda açılır
-    - Klavye ile navigasyon
-    - Responsive tasarım
+    - Yeni sekmede açılır
+    - Klavye ile navigasyon (← →)
+    - Tam ekran mod (F tuşu)
 
 -   **Detaylı İçerik**
 
