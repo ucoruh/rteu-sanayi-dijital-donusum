@@ -1,21 +1,9 @@
 ---
 template: home.html
+title: Ana Sayfa
 ---
 
-# RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop
-
-<style>
-.hero-image {
-  margin: 2rem 0;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-}
-.hero-image img {
-  width: 100%;
-  height: auto;
-}
-</style>
+# Blank
 
 ## Hoş Geldiniz!
 
