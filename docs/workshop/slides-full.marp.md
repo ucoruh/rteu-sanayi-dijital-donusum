@@ -177,15 +177,19 @@ footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 
 - ⏰ 10:14
 - 📜 4 SANAYİ DEVRİMİ
+- 1.0
 - 1784
 - Buhar Makinesi
 - Mekanik üretim, su ve buhar gücü
+- 2.0
 - 1870
 - Elektrik
 - Seri üretim, montaj hattı, elektrik enerjisi
+- 3.0
 - 1969
 - Bilgisayar & Otomasyon
 - Dijital devrim, PLC, robotlar
+- 4.0
 - 2011
 - Siber-Fiziksel Sistemler
 - IoT, AI, Big Data, Cloud, akıllı fabrikalar
@@ -426,6 +430,7 @@ footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 
 - ⏰ 10:42
 - 🤔 AI ARAÇLARI NEDEN GEREKLİ?
+- Hız
 - 100X daha hızlı kod yazma, 10 dakikada proje önerisi
 - Doğruluk
 - Syntax hataları yok, best practice kodlama
@@ -823,10 +828,9 @@ footer: 'Dr. Öğr. Üyesi Uğur CORUH | 19 Ekim 2025'
 
 <!-- Slide 42 -->
 
-![bg right:40%](../images/slide-42-1.jpg)
+![bg](../images/slide-42-1.png)
 
 # 42/62
-
 
 ---
 
