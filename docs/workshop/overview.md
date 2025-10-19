@@ -11,7 +11,52 @@
 
 ## İnteraktif Sunum
 
-<iframe src="../presentation/slides.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="slides.html" width="100%" height="600px" frameborder="0" allowfullscreen style="border: 2px solid #ddd; border-radius: 8px;"></iframe>
+
+---
+
+## Sunum Formatları
+
+Workshop sunumunu farklı formatlarda görüntüleyin:
+
+<div class="grid cards" markdown>
+
+-   **PowerPoint Sunumu**
+
+    ---
+
+    Orijinal PowerPoint dosyasını indirin
+
+    [:fontawesome-solid-download: İndir (PPTX)](../../rteu-sanayi40-dijital-donusum-workshop-2025.pptx){ .md-button .md-button--primary }
+
+    - 62 slayt
+    - Progress bar'lı
+    - Tam ekran görseller
+
+-   **İnteraktif HTML Sunum**
+
+    ---
+
+    Marp ile oluşturulmuş web sunumu
+
+    [:fontawesome-solid-presentation-screen: Görüntüle](slides.html){ .md-button }
+
+    - Tarayıcıda açılır
+    - Klavye ile navigasyon
+    - Responsive tasarım
+
+-   **Markdown Kaynak**
+
+    ---
+
+    Sunum kaynak kodları
+
+    [:fontawesome-solid-code: Marp](slides.marp.md){ .md-button }
+
+    - Düzenlenebilir
+    - Versiyon kontrolü kolay
+
+</div>
 
 ---
 

@@ -174,11 +174,8 @@ extra_javascript:
 nav:
   - Anasayfa: index.md
   - Workshop Materyalleri:
-    - Genel Bakış: workshop/overview.md
-    - Sunum (PPTX): workshop/presentation.md
-    - Python Kodu: workshop/code.md
-  - Sunum:
-    - Ana Sayfa: presentation/index.md
+    - Genel Bakış & Sunum: workshop/overview.md
+    - Sunum Kodu (Python): workshop/code.md
   - Sanayi 4.0 & Dijital Dönüşüm:
     - Giriş: industry40/intro.md
     - Teknolojiler: industry40/technologies.md
