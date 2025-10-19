@@ -828,7 +828,7 @@
 
 ## Slayt 42
 
-![Slayt 42](../images/slide-42-1.jpg)
+![Slayt 42](../images/slide-42-1.png)
 
 ### 42/62
 
