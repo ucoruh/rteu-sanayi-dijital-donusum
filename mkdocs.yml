@@ -1,18 +1,18 @@
 # Project information
-site_name: "KOSGEB Tarafından Sunulan Girişimcilik Yol Haritası"
-docs_dir: docs  # Where to find the markdown files
-site_dir: site  # Where to output the HTML files
-site_author: 'Dr. Uğur CORUH'
-site_url: 'https://coruhtech.github.io/kosgeb-rize/'
-site_description: 'KOSGEB Tarafından Sunulan Girişimcilik Yol Haritası'
+site_name: "RTEÜ Sanayi 4.0 & Dijital Dönüşüm Workshop"
+docs_dir: docs
+site_dir: site
+site_author: 'Dr. Öğr. Üyesi Uğur CORUH'
+site_url: 'https://ucoruh.github.io/rteu-sanayi-dijital-donusum/'
+site_description: 'RTEÜ Erasmus+ Sanayi 4.0 ve Dijital Dönüşüm Workshop Materyalleri - AI Araçlarıyla Fikirden Ürüne'
 
 # Repository
-repo_name: 'GitHub'
-repo_url: 'https://github.com/coruhtech/kosgeb-rize'
-edit_uri: 'https://github.com/coruhtech/kosgeb-rize/edit/main/docs/'
+repo_name: 'ucoruh/rteu-sanayi-dijital-donusum'
+repo_url: 'https://github.com/ucoruh/rteu-sanayi-dijital-donusum'
+edit_uri: 'edit/main/docs/'
 
 # Copyright
-copyright: Copyright &copy; 2022 - 2024 Coruh Arge ve Teknoloji San. Tic. Ltd. Şti
+copyright: Copyright &copy; 2024 RTEÜ Bilgisayar Mühendisliği - Dr. Öğr. Üyesi Uğur CORUH
 
 # Configuration
 theme:
@@ -24,21 +24,24 @@ theme:
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
-    logo: logo  # Adjust the file name if necessary
-  
+    logo: material/school
+
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
-  
-  # Static files  
+
+  # Static files
   static_templates:
    - 404.html
-    
+
   # Default values, taken from mkdocs_theme.yml
   language: tr
   features:
+    - announce.dismiss
     - content.code.annotate
+    - content.code.copy
     - content.tabs.link
+    - navigation.footer
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
@@ -48,20 +51,21 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - toc.follow
 
   palette:
     - scheme: default
-      primary: cyan
-      accent: cyan
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Karanlık moda geç
     - scheme: slate
-      primary: orange
-      accent: orange
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Aydınlık moda geç
 
   font:
     text: Roboto
@@ -73,39 +77,35 @@ extra:
     json: [.s2]
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KOSGEB_RIZE
+    property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
-      title: Was this page helpful?
+      title: Bu sayfa yardımcı oldu mu?
       ratings:
         - icon: material/emoticon-happy-outline
-          name: This page was helpful
+          name: Evet, yardımcı oldu
           data: 1
           note: >-
-            Thanks for your feedback!
+            Geri bildiriminiz için teşekkürler!
         - icon: material/emoticon-sad-outline
-          name: This page could be improved
+          name: İyileştirilebilir
           data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target=_blank>feedback form</a>.
+          note: >-
+            Geri bildiriminiz için teşekkürler!
   consent:
-    title: Cookie consent
+    title: Çerez onayı
     description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      Tekrarlanan ziyaretlerinizi ve tercihlerinizi tanımak, ayrıca
+      dökümanlarımızın etkinliğini ölçmek için çerezler kullanıyoruz.
+      Onayınızla, dökümanlarımızı daha iyi hale getirmemize yardımcı oluyorsunuz.
     cookies:
       analytics: Google Analytics
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/coruhtech
+      link: https://github.com/ucoruh
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/coruh
-    - icon: fontawesome/regular/id-card
       link: https://www.linkedin.com/in/ugurcoruh
     - icon: fontawesome/brands/orcid
-      link: http://www.coruh.com.tr/
+      link: https://orcid.org/0000-0003-4193-8401
 
 # Extensions
 markdown_extensions:
@@ -129,12 +129,14 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: coruhtech
-      repo: kosgeb-rize
+      user: ucoruh
+      repo: rteu-sanayi-dijital-donusum
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -147,44 +149,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - codehilite:
-      guess_lang: true
 
 # Plugins
 plugins:
-  - mkdocs-simple-hooks:
-      hooks:
-        on_env: "hooks:on_env"
-  - external-markdown
-  - mkdocs-video
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - i18n:
-      docs_structure: suffix
-      reconfigure_material: true
-      reconfigure_search: true
-      fallback_to_default: true
-      languages:
-        - locale: tr
-          name: "Türkçe"
-          build: true
-          default: true
-          site_name: "KOSGEB Rize Girisimcilik Eğitimi"
-          nav_translations:
-            "Home": "Anasayfa" 
-            "Entrepreneurship Overview": "Girişimcilik Genel Bakış" 
-            "License": "Lisans" 
-            "Changelog": "Revizyonlar" 
-        - locale: en
-          name: "English"
-          build: true
-          default: false
-          site_name: "KOSGEB Rize Entrepreneurship Training"
-          nav_translations:
-            "Anasayfa": "Home" 
-            "Girişimcilik Genel Bakış": "Entrepreneurship Overview" 
-            "Lisans": "License" 
-            "Revizyonlar": "Changelog" 
+      lang: tr
   - tags:
       tags_file: tags.md
   - minify:
@@ -194,26 +164,53 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: timeago
-  - git-authors:
-      sort_authors_by: contribution
-  - git-committers:
-      repository: coruhtech/kosgeb-rize
-      docs_path: docs/
-      branch: main
-      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
-  - macros
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
+      enable_creation_date: true
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-# Page tree (for navigation)
+# Page tree (sunum yapısına göre organize edilmiş)
 nav:
-  - Home: index.md
-  - "Entrepreneurship Overview": kosgeb/girisimcilik-giris.md
-  - License: license/index.md
-  - Changelog: changelog/index.md
+  - Anasayfa: index.md
+  - Workshop Materyalleri:
+    - Genel Bakış: workshop/overview.md
+    - Sunum (PPTX): workshop/presentation.md
+    - Python Kodu: workshop/code.md
+  - Sanayi 4.0 & Dijital Dönüşüm:
+    - Giriş: industry40/intro.md
+    - Teknolojiler: industry40/technologies.md
+    - Türkiye'de Sanayi 4.0: industry40/turkey.md
+  - Modern AI Araçları:
+    - AI Neden Gerekli?: ai-tools/why-ai.md
+    - Claude & Claude Code: ai-tools/claude.md
+    - ChatGPT & Gemini: ai-tools/chatgpt-gemini.md
+    - Diğer Araçlar: ai-tools/other-tools.md
+    - Prompt Engineering: ai-tools/prompt-engineering.md
+  - Fonlama Ekosistemi:
+    - Genel Bakış: funding/overview.md
+    - TÜBİTAK 2209-A: funding/tubitak-2209a.md
+    - KOSGEB: funding/kosgeb.md
+    - Teknofest: funding/teknofest.md
+    - Uluslararası Fonlar: funding/international.md
+    - Başarılı Örnekler: funding/success-stories.md
+  - Proje Geliştirme:
+    - Design Thinking - Lean - Agile: project/design-thinking.md
+    - Takım Oluşturma: project/team-building.md
+    - Problem Seçimi: project/problem-selection.md
+    - Proje Önerisi Formatı: project/proposal-format.md
+    - Araştırma Yöntemleri: project/research-methods.md
+    - Proje Şablonları: project/templates.md
+  - Atölye Materyalleri:
+    - Yol Haritası: workshop/roadmap.md
+    - Hesap Kurulumu: workshop/account-setup.md
+    - Pratik Örnekler: workshop/practical-examples.md
+    - Video Anlatımı: workshop/video-guide.md
+  - Kaynaklar:
+    - AI Araçları: resources/ai-tools.md
+    - Fonlama Kaynakları: resources/funding.md
+    - Öğrenme Platformları: resources/learning.md
+    - Geliştirme Araçları: resources/development-tools.md
+  - İletişim: contact.md
+  - Lisans: license/index.md
+  - Güncellemeler: changelog/index.md
