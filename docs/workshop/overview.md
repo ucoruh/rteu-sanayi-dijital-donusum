@@ -60,7 +60,7 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     Marp ile oluşturulmuş web sunumu (62 slayt)
 
-    [:fontawesome-solid-presentation-screen: Tam Ekranda Aç](slides-full.html){ .md-button target="_blank" }
+    [:fontawesome-solid-presentation-screen: Tam Ekranda Aç](slides-full.html){ .md-button .md-button--primary target="_blank" }
 
     - Yeni sekmede açılır
     - Klavye ile navigasyon (← →)
@@ -72,7 +72,7 @@ Workshop sunumunu farklı formatlarda görüntüleyin:
 
     PowerPoint'ten dönüştürülmüş web sunumu (62 slayt)
 
-    [:fontawesome-solid-display: Web Sunumunu Aç](slides-pptx.html){ .md-button target="_blank" }
+    [:fontawesome-solid-display: Web Sunumunu Aç](slides-pptx.html){ .md-button .md-button--primary target="_blank" }
 
     - Görseller gömülü (base64)
     - Klavye/touch navigasyon
